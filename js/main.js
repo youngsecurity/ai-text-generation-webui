@@ -20,7 +20,8 @@ document.querySelector(".header_bar").addEventListener("click", function(event) 
 
       if (chat_visible) {
         this.style.marginBottom = "0px";
-        extensions && (extensions.style.maxWidth = "880px");
+        //extensions && (extensions.style.maxWidth = "880px");
+        extensions && (extensions.style.maxWidth = "1920px");
         extensions && (extensions.style.padding = "0px");
       } else {
         this.style.marginBottom = "19px";
